@@ -5,7 +5,6 @@ body{
 }
 #container{
     width: 1150px;
-    /* border: 1px solid grey; */
     margin: 0 auto;
 }
 #top-container{
@@ -68,14 +67,13 @@ body{
     padding-right: 50px;
 }
 .lists ul li a, .lists ol li a{
-    text-decoration:none ;
-    color: #4d147c /* rgb(255, 228, 190); */
+    text-decoration: none ;
+    color: #4d147c;
 }
 #product{
     float: left;
     text-align: right;
     padding-left: 250px;
-    /* text-align: center; */
 }
 #company{
     float: right;
