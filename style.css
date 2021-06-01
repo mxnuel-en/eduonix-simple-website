@@ -1,0 +1,121 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    background-color: #c6d5f5;
+}
+#container{
+    width: 1150px;
+    /* border: 1px solid grey; */
+    margin: 0 auto;
+}
+#top-container{
+    background: linear-gradient(90deg, #8E50BE, #0E7FAF);
+    text-align: center;
+    padding: 100px;
+    line-height: 15px;
+    border-radius: 0 0 20px 20px;
+}
+span{
+    color: #4a0d88;
+}
+.tagline{
+    padding-left: 200px;
+}
+.paragraph{
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-top: 15px;
+    width: 500px;
+    height: 230px;
+    line-height: 30px;
+    text-align: justify;
+}
+.paragraph h3{
+    font-size: 25px;
+}
+.paragraph p{
+    padding: 0 15px 0 30px;
+}
+#left-paragraph{
+    float: left;
+    background: linear-gradient(45deg, #8E50BE, #0E7FAF);
+}
+#right-paragraph{
+    float: right;
+    background: linear-gradient(135deg, #0E7FAF, #8E50BE);
+}
+a{
+    text-decoration: none;
+}
+#left-paragraph a{
+    color: #551A8B;
+}
+#left-paragraph a:hover, #left-paragraph a:active{
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+
+    /* text-decoration: underline; */
+}
+.clear{
+    clear: right;
+}
+#bottom-container{
+    border-radius: 20px;
+    margin-top: 15px;
+    background: linear-gradient(90deg, #8E50BE, #0E7FAF);
+}
+.lists {
+    padding-top: 1px;
+    height: 290px;
+}
+.lists ul, .lists ol{
+    list-style: none;
+    line-height: 35px;
+}
+.lists h3{
+    font-size: 30px;
+    border-bottom: 5px solid #4a0d88;
+    line-height: 50px;
+}
+.lists ul li, .lists ol li{
+    padding-right: 50px;
+}
+#product{
+    float: left;
+    text-align: right;
+    padding-left: 250px;
+    /* text-align: center; */
+}
+#company{
+    float: right;
+    text-align: left;
+    padding-right: 250px;
+}
+.lists a:hover, .lists a:active{
+    color: #2f0455;
+    font-size: 23px;
+    font-weight: bold;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+}
+#outro{
+    color: #2f0455;
+    text-align: center;
+    line-height: 10px;
+}
+.w3{
+    position: fixed;
+    bottom: 0px;
+    left: 15px;
+    padding: 10px;
+}
