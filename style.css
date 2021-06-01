@@ -18,24 +18,25 @@ span{
     color: #4a0d88;
 }
 .tagline{
-    padding-left: 200px;
+    padding-left: 100px;
 }
 .paragraph{
     border: 1px solid grey;
     border-radius: 20px;
-    padding: 10px 30px;
+    padding: 10px 33px;
     margin-top: 15px;
     width: 500px;
-    height: 230px;
+    height: 220px;
     line-height: 30px;
-    text-align: justify;
+    text-align: center;
 }
 .paragraph h3{
     font-size: 25px;
+    /* text-align: center; */
 }
-.paragraph p{
+/* .paragraph p{
     padding: 0 15px 0 30px;
-}
+} */
 #left-paragraph{
     float: left;
     background: linear-gradient(360deg, #0E7FAF, #8E50BE);
@@ -53,13 +54,13 @@ span{
 }
 #left-paragraph a:hover, #left-paragraph a:active{
     letter-spacing: 0.5px;
-    font-size: 18px;
+    text-decoration: underline;
     font-weight: bold;
-    transition: font-size 0.3s ease;
-    -webkit-transition: font-size 0.3s ease;
-    -moz-transition: font-size 0.3s ease;
-    -o-transition: font-size 0.3s ease;
-    -ms-transition: font-size 0.3s ease;
+    /* transition: font-weight 0.3s ease;
+    -webkit-transition: font-weight 0.3s ease;
+    -moz-transition: font-weight 0.3s ease;
+    -o-transition: font-weight 0.3s ease;
+    -ms-transition: font-weight 0.3s ease; */
 }
 .clear{
     clear: right;
