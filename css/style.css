@@ -78,7 +78,8 @@ span{
 }
 .product ul li a, .company ol li a{
     text-decoration: none;
-    color: #02343fd8;
+    border-bottom: 2px solid #F0EDCC;
+    color:#F0EDCC;
 }
 .product ul li a:hover, .company ol li a:hover{
     font-size: 1.2em;
@@ -93,7 +94,7 @@ footer{
     color: #02343F;
     margin: 10px 0;
     padding: 10px;
-    background: linear-gradient(180deg, #919794, #b8b3ac);;
+    background: linear-gradient(180deg, #919794, #b8b3ac);
     text-align: center;
     line-height: 10px;
 }
